@@ -1,0 +1,374 @@
+
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+/* BODY-STYLING */
+body {
+    background-image: url(/bilder/mount\ Fuji.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    display: flex; 
+    flex-direction: column; 
+    min-height: 100vh; 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    line-height: 1.6; 
+}
+
+
+
+
+/* HEADER-STYLING */
+header {
+    background: transparent; 
+    width: 100%; 
+
+}
+
+/* FLEXBOX-KONTROLL PÅ HEADERN */
+.inner-width {
+    display: flex; 
+    width: 100%; 
+    align-items: center; 
+}
+
+/* LÄNKSTYLING */
+a {
+    color: rgb(255, 255, 255); 
+    text-decoration: none; 
+    cursor: pointer; 
+}
+
+/* NAVIGATIONSMENY */
+.navigation-menu {
+    display: flex; 
+    flex-direction: row; 
+    margin-left: auto; 
+    margin-right: 2rem; 
+    padding: 1%; 
+}
+
+/* LOGO */
+.logo {
+    padding-left: 10%; 
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px; 
+}
+
+.dark-mode {
+    background-image: url("/bilder/Fuji\ night.jpg");
+}
+
+/* NAVIGATIONSLÄNKAR */
+.navigation-menu a {
+    font-family: 'Cormorant Garamond', serif;
+    display: block; 
+    margin-left: 30px; 
+    font-size: 1rem; 
+}
+
+/* MENYKNAPP (DOLT I DESKTOP-LÄGE) */
+.menu-toggle-btn {
+    visibility: hidden;
+    color: white; 
+}
+
+/* NAVIGATION HOVER-EFFEKT */
+nav a:hover {
+    scale: 1.2; 
+    color: aquamarine; 
+}
+
+.theme-toggle-btn {
+    color: rgb(255, 255, 255);
+}
+
+/* HUVUDINNEHÅLL */
+.main {
+    display: flex; 
+    flex-direction: column; 
+    margin: 80px 10% 30px 10%; 
+}
+
+/* LAYOUT-KONTROLL FÖR FÖRSTA KONTAINERN */
+.container1 {
+    display: flex; 
+    gap: 1rem; 
+    width: 100%; 
+    margin-bottom: 2rem; 
+}
+
+/* BILDER */
+img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+}
+
+/* BILD 1 */
+.img1 {
+    flex: 1; 
+    display: flex; 
+    height: 400px; 
+    overflow: hidden; 
+    filter: sepia(80%) hue-rotate(7000deg);
+}
+
+/* PROJEKTTITEL */
+.project-title {
+    color: white; 
+    padding-bottom: 12px; 
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 14px; 
+}
+
+/* CV-SEKTION */
+.Cv {
+    font-family: 'Cormorant Garamond', serif !important;
+    font-size: larger; 
+    text-align: center; 
+    color: rgb(255, 255, 255); 
+    display: flex; 
+    flex: 2; 
+    justify-content: center; 
+    height: 400px; 
+    background-color: transparent; 
+    font-family: Georgia, Times, serif; 
+    overflow: auto; 
+}
+
+
+
+/* KONTAINER 2 */
+.container2 {
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 1rem; 
+    width: 100%; 
+    height: 300px; 
+    margin-bottom: 10%; 
+}
+
+/* PROJEKTKORT */
+.project {
+    text-align: center; 
+    border-radius: 5px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
+}
+
+/* PROJEKTBILDER */
+.project img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    opacity: 0.4; 
+    border-radius: 15px;
+    box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.508);
+    }
+
+/* PROJEKTTITEL */
+.project h2 {
+    background-color: rgba(0, 0, 50, 0.611); 
+}
+
+/* HOVER-EFFEKT FÖR PROJEKT */
+.project:hover {
+    scale: 1.02; 
+}
+
+/* HOVER PÅ BILDER */
+.project h2, img:hover {
+    opacity: 1; 
+}
+
+/* FOOTER */
+.footer {
+    text-align: center; 
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 30px; 
+    background-color: rgba(0, 4, 24, 0.685); 
+}
+
+
+
+/*---------------------------About-page styling-----------------------------------------*/
+
+
+
+
+
+.container3 {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    width: 100%; 
+    height: 400px; 
+    margin-top:6%; 
+}
+
+/* För att visa en bild i container3 */
+.img-section {
+    display: flex; 
+    overflow: hidden; 
+    height: 100%; 
+}
+
+/* Gör så att bilder i img-section anpassas till container */
+.img-section img {
+    width: 100%; 
+    height: 100%; 
+    object-fit:cover; 
+}
+
+/* Content section är för textinnehåll */
+.content-section {
+    margin: auto;
+    font-family: 'Cormorant Garamond', serif;
+    text-align:center; 
+    display: flex; 
+    align-items: center; 
+    background-color: white; 
+    height: 100%; 
+    background-color: transparent; 
+    backdrop-filter: blur(2px); 
+    box-shadow: 0px 0px 3px 0.1px rgba(0, 0, 0, 0.508); 
+}
+
+/* Stil för artikelrubriken */
+article h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px; 
+    margin-bottom: 2px; 
+    color: rgb(255, 255, 255);
+    text-align: center; 
+}
+
+/* Stil för artikelns brödtext */
+article p {
+    margin-bottom: 15px; 
+    color: rgb(255, 255, 255); 
+    font-size: 16px; 
+}
+
+/*----------------------------------- Contact-page styling--------------------------------------*/
+
+
+.contactBody{
+    text-align: center;  
+}
+
+.contact-box {
+    font-family: 'Cormorant Garamond', serif;
+    margin-top: 15%; 
+    color:white; 
+}
+
+iframe {
+    padding-bottom: 5%;
+    width: 40%;
+    height: 20rem;
+
+}
+
+
+/*----------------------------------- Responsive part--------------------------------------*/
+
+@media (max-width: 768px) {
+
+
+    .navigation-menu {
+        flex-direction: column;
+        position: absolute;
+        top: 30px;
+        left: 0;
+        width: 100%;
+        background-color: rgba(77, 110, 147, 0.888);
+        padding: 13px;
+    }
+
+    .navigation-menu a {
+        margin-top: 10px;
+    }
+
+    .menu-toggle-btn {
+        margin-left: auto;
+        z-index: 10;
+        visibility: visible;
+        font-size: 2rem;
+        padding-right: 50px;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    nav a:hover {
+        scale: 1;
+        color:aquamarine;
+    }
+
+
+    .container1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container2 {
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    } 
+
+
+
+
+
+    /* About-part*/
+
+    .container3 {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        height: auto !important;
+        width: 100% !important;
+    }
+
+    .img-section, 
+    .content-section {
+        width: 100% !important;
+        height: auto !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .img-section img {
+        width: 100% !important;
+        height: auto !important;
+    }
+    /*Contact-part*/
+
+
+
+
+
+}
+
+
+
+
+
+
+
