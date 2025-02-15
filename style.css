@@ -117,7 +117,7 @@ img {
     display: flex; 
     height: 400px; 
     overflow: hidden; 
-    filter: sepia(80%) hue-rotate(7000deg);
+   
 }
 
 /* PROJEKTTITEL */
@@ -285,7 +285,6 @@ iframe {
 /*----------------------------------- Responsive part--------------------------------------*/
 
 @media (max-width: 768px) {
-
 
     .navigation-menu {
         flex-direction: column;
