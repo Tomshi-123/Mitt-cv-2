@@ -27,9 +27,11 @@ body {
 /* HEADER-STYLING */
 header {
     background: transparent; 
-    width: 100%; 
+    width: 100%;
 
 }
+
+
 
 /* FLEXBOX-KONTROLL PÅ HEADERN */
 .inner-width {
@@ -61,8 +63,14 @@ a {
     font-size: 25px; 
 }
 
+/*BAKGRUNDSBILD FÖR DARK MODE*/
 .dark-mode {
     background-image: url("bilder/Fuji\ night.jpg");
+}
+
+/*DARK/LIGHT MODE_KNAPP*/
+.theme-icon {
+    margin-right: 2rem;
 }
 
 /* NAVIGATIONSLÄNKAR */
