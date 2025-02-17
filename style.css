@@ -213,7 +213,7 @@ img {
     grid-template-columns: 1fr 1fr; 
     width: 100%; 
     min-height: 400px; 
-    margin-top:3%; 
+    margin-top:6%;
 }
 
 /* För att visa en bild i container3 */
