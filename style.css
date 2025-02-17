@@ -7,7 +7,7 @@
 
 /* BODY-STYLING */
 body {
-    background-image: url(/bilder/mount\ Fuji.jpg); 
+    background-image: url(bilder/mount\ Fuji.jpg); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -62,7 +62,7 @@ a {
 }
 
 .dark-mode {
-    background-image: url("/bilder/Fuji\ night.jpg");
+    background-image: url("bilder/Fuji\ night.jpg");
 }
 
 /* NAVIGATIONSLÄNKAR */
