@@ -41,10 +41,7 @@ if (hour >= 19 || hour < 7) {
 
 let audio = new Audio("music/deep-future-garage-royalty-free-music-163081.mp3");
 audio.loop = true;
-//kontrollera om musik ska fortsätta spelas på andra flikar
-if (sessionStorage.getItem("isPlaying") === "true") {
-        audio.play();
-    }
+
 
 
 // Eventlyssnare för att spela/pausa musik
@@ -57,10 +54,6 @@ playButton.addEventListener("click",() => {
         sessionStorage.setItem("isPlaying", "false");
     }});
 
-    //spara musikstatus
-    window.addEventListener("beforeunload", () => {
-        sessionStorage.setItem("isPlaying", audio.paused ? "false" : "true");
-    });
 
 
 // Lägg till event-lyssnare
