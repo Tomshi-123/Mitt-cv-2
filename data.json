@@ -1,0 +1,46 @@
+{
+    "education": [
+        {
+            "school": "Wiks Folkhögskola, Uppsala",
+            "program": "Teater",
+            "year": "2010-2011"
+        },
+        {
+            "school": "Fredrika Bremergymnasiet, Haninge",
+            "program": "Bild och Form samt Digitalt Skapande",
+            "year": "2004-2007"
+        }
+    ],
+    "experience": [
+        {
+            "workplace": "Karinslundsskolan, Strängnäs",
+            "position": "IT-ansvarig, lärarassistent & lärare",
+            "years": "2019-2024"
+        },
+        {
+            "workplace": "Kristinebergsskolan, Stockholm",
+            "position": "Fritidspedagog",
+            "years": "2017–2019"
+        },
+        {
+            "workplace": "LSS-boende",
+            "position": "Vårdpersonal",
+            "years": "2016–2017"
+        },
+        {
+            "workplace": "Albatross Montessoriskola, Lidingö",
+            "position": "Fritidspedagog",
+            "years": "2014–2016"
+        },
+        {
+            "workplace": "Matrix i Tensta",
+            "position": "Resurspedagog",
+            "years": "2011–2014"
+        },
+        {
+            "workplace": "Åhléns Lager",
+            "position": "Lagerarbetare",
+            "years": "2007–2008"
+        }
+    ]
+}
