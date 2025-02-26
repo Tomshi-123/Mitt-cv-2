@@ -28,13 +28,13 @@ document.addEventListener("DOMContentLoaded", () => {
 // Modal-kod hämtad från w3schools:
 
 // Hämta modalen
-var modal = document.getElementById("myModal");
+let modal = document.getElementById("myModal");
 
 // Hämta alla knappar som ska öppna modalen
-var btns = document.querySelectorAll("#project3, #project4");
+let btns = document.querySelectorAll("#project3, #project4");
 
 // Hämta <span>-elementet som stänger modalen
-var span = document.getElementsByClassName("close")[0];
+let span = document.getElementsByClassName("close")[0];
 
 // Loopa igenom alla knappar och lägg till en klick-händelse
 btns.forEach(btn => {
