@@ -170,17 +170,18 @@ img {
     justify-content: center; 
     align-items: center; 
     height: 100%; 
+    opacity: 0.4;
 }
 
 /* PROJEKTBILDER */
-.project img {
+.project img{
     width: 100%; 
     height: 100%; 
     object-fit: cover; 
-    opacity: 0.4;
     border-radius: 15px;
     box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.508);
     }
+
 
 /* PROJEKTTITEL */
 .project h2 {
@@ -189,13 +190,11 @@ img {
 
 /* HOVER-EFFEKT FÖR PROJEKT */
 .project:hover {
-    scale: 1.02; 
-}
-
-/* HOVER PÅ BILDER */
-.project h2, img:hover {
+    scale: 1.02;
     opacity: 1; 
 }
+
+
 
 /* The Modal (background) */
 .modal {

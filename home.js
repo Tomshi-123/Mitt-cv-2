@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
 let modal = document.getElementById("myModal");
 
 // Hämta alla knappar som ska öppna modalen
-let btns = document.querySelectorAll("#project3, #project4");
+let btns = document.querySelectorAll("#project4");
 
 // Hämta <span>-elementet som stänger modalen
 let span = document.getElementsByClassName("close")[0];
@@ -54,3 +54,4 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
