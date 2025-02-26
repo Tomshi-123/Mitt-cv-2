@@ -61,35 +61,7 @@ playButton.addEventListener("click", () => {
     }
 });
 
-// Modal-kod hämtad från w3schools:
 
-// Hämta modalen
-var modal = document.getElementById("myModal");
-
-// Hämta alla knappar som ska öppna modalen
-var btns = document.querySelectorAll("#project3, #project4");
-
-// Hämta <span>-elementet som stänger modalen
-var span = document.getElementsByClassName("close")[0];
-
-// Loopa igenom alla knappar och lägg till en klick-händelse
-btns.forEach(btn => {
-  btn.addEventListener("click", function() {
-    modal.style.display = "block";
-  });
-});
-
-// När användaren klickar på <span> (X), stäng modalen
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// När användaren klickar utanför modalen, stäng den
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
 
 
 
