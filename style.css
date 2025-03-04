@@ -437,8 +437,81 @@ iframe {
     }
 
 
+}
+
+/*--------------------Portfolio-part---------------------*/
+
+/*centrera innehållet i contactBody*/
+/* BODY-STYLING */
+
+
+/* Contact-box styling */
+.portfolio-main { 
+    display: flex; 
+    justify-content: center;  /* Centrerar horisontellt */
+    align-items: center;  /* Centrerar vertikalt */
+    min-height: 100vh; 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+}
+
+.portfolio-content {
+    font-family: 'Cormorant Garamond', serif;
+    width: 50vw; 
+    max-width: 500px; 
+    height: auto;
+    min-height: 500px; 
+    padding: 2rem; 
+    background-color: transparent;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
 }
+
+#repo-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Avstånd mellan korten */
+}
+
+#repo-container p {
+    color: white;
+}
+
+.repo-card {
+    opacity: 0.9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);    
+}
+
+.repo-card:hover {
+    transform: scale(1.007);
+}
+
+.repo-card h3 {
+    margin: 0;
+}
+
+.repo-card a {
+    color: #00073a;
+}
+
+.repo-card p {
+    margin: 5px 0;
+    color: #fcfcff;
+}
+
+
+
+
+
+
 
 
 
