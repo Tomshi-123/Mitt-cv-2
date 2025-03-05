@@ -395,13 +395,11 @@ article p {
     background: rgba(248, 247, 247, 0.9);
     color: rgb(0, 0, 0);
     padding: 20px;
-    transition: right 0.5s ease;
-    z-index: 1000;
-    overflow-y: auto;
+    transition: right 0.4s ease;
 }
 
 .project-info-panel.open {
-    right: 0; /* Skjuts in när den öppnas */
+    right: 0; 
 }
 
 .project-info-content {
