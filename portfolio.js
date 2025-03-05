@@ -21,19 +21,6 @@ async function fetchGitHubRepos() {
             // Lägger till CSS-klassen "repo-card" för styling
             repoCard.classList.add("repo-card");
 
-            // Sätter bakgrundsfärgen på kortet till en slumpmässig gradient
-            repoCard.style.background = randomColor();
-
-            // Funktion som returnerar en slumpmässig gradientfärg
-            function randomColor() {
-                const gradients = [
-                    'linear-gradient(to bottom left,rgb(96, 196, 243),rgb(239, 242, 247) )',
-                    'linear-gradient(to bottom right,rgb(76, 133, 255),rgba(255, 255, 255, 0.69))',
-                    'linear-gradient(to bottom left,rgb(66, 216, 236),rgba(255, 255, 255, 0.82))'
-                ];
-                // Returnerar en slumpmässig färg från arrayen
-                return gradients[Math.floor(Math.random() * gradients.length)];
-            }
 
             // Skapar HTML-strukturen för kortet och fyller det med repo-information
             repoCard.innerHTML = `
