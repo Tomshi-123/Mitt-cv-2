@@ -490,9 +490,7 @@ iframe {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);    
 }
 
-.repo-card:hover {
-    transform: scale(1.007);
-}
+
 
 .repo-card h3 {
     margin: 0;
@@ -508,6 +506,74 @@ iframe {
 }
 
 
+/* Sidopanel för projektinfo */
+.project-info-panel {
+    position: fixed;
+    top: 0;
+    right: -400px; /* Börjar gömd */
+    width: 400px;
+    height: 100%;
+    background: rgba(248, 247, 247, 0.9);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    transition: right 0.5s ease;
+    z-index: 1000;
+    overflow-y: auto;
+}
+
+.project-info-panel.open {
+    right: 0; /* Skjuts in när den öppnas */
+}
+
+.project-info-content {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.project-info-content h2 {
+    margin-top: 0;
+}
+
+.project-info-content pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.project-info-panel .btn {
+    display: block;
+    text-align: center;
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.project-info-panel .btn:hover {
+    background: #0056b3;
+}
+
+.project-info-panel a {
+    color: rgb(33, 0, 248);
+}
+
+/* Förbättra repo-card hover-effekt */
+.repo-card {
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.repo-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 
 
 
