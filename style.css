@@ -332,7 +332,6 @@ article p {
     height: auto;
     min-height: 500px; 
     padding: 2rem; 
-    background-color: ;
     color: white;
     display: flex;
     justify-content: center;
@@ -559,9 +558,25 @@ iframe {
 
     /*-----------------portfolio-part---------------*/
 
+    .portfolio-content {
+        box-shadow: none;
+    }
+
+
     .project-info-panel {
         width: 90%; /* Gör panelen större på små skärmar */
         right: -90%; /* Låt panelen börja utanför skärmen */
+    }
+
+    .repo-card {
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);    
+        cursor: pointer;
+        transition: transform 0.1s ease, box-shadow 0.1s ease;
+        background-color: rgb(22, 86, 146);
+        height: 100px;
+        width: 100px;
     }
 
     /*-----------------contact-part-----------------*/
