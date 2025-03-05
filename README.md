@@ -1,3 +1,5 @@
-Min cv-site, där du befinner dig just nu!
+# Mitt Projekt
 
-<a href="[https://github.com/Tomshi-123/ufo-game](https://github.com/Tomshi-123/Mitt-cv-2)">GitHub Repository</a>
+Välkommen till mitt projekt! Du kan kolla på koden här:
+
+[GitHub Repository](https://github.com/Tomshi-123/ufo-game)
