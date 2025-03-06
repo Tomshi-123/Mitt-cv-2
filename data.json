@@ -42,5 +42,31 @@
             "position": "Lagerarbetare",
             "years": "2007–2008"
         }
+    ],
+    "projects": [
+        {
+            "id": "project1",
+            "image": "bilder/loginprojekt.png",
+            "url": "https://tomshi-123.github.io/LOGIN-HTML-CSS/",
+            "alt": "Login Project"
+        },
+        {
+            "id": "project2",
+            "image": "bilder/Ufo-spel.png",
+            "url": "https://tomshi-123.github.io/ufo-game/",
+            "alt": "UFO Game"
+        },
+        {
+            "id": "project3",
+            "image": "bilder/Skärmbild_2025-02-26_131552.png",
+            "url": "https://tomshi-123.github.io/fiskar/",
+            "alt": "Fish Project"
+        },
+        {
+            "id": "project4",
+            "image": "bilder/VäderApp.png",
+            "url": "https://tomshi-123.github.io/WeatherApp/",
+            "alt": "Weather App"
+        }
     ]
 }
