@@ -127,9 +127,10 @@ img {
 /* PROJEKTTITEL */
 .project-title {
     color: white; 
+    margin-top: 50px;
     padding-bottom: 12px; 
     font-family: 'Cormorant Garamond', serif;
-    font-size: 14px; 
+    font-size: 12px; 
 }
 
 /* CV-SEKTION */
