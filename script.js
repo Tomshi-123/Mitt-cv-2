@@ -8,9 +8,26 @@ const playButton = document.getElementById("music");
 let hour = new Date().getHours();
 let shouldBeDark = hour >= 19 || hour < 7;
 
+// Funktion för att visa/dölja menyn
+const menuVisibility = function () {
+    navigationMenu.classList.toggle("hidden");
+};
+
+// Funktion för att byta tema (dark mode)
+const toggleTheme = function () {
+    document.body.classList.toggle("dark-mode");
+
+    if (document.body.classList.contains("dark-mode")) {
+        themeToggleButton.classList.replace("fa-sun", "fa-moon");
+        localStorage.setItem("theme", "dark");
+    } else {
+        themeToggleButton.classList.replace("fa-moon", "fa-sun");
+        localStorage.setItem("theme", "light");
+    }
+};
+
 // Hämta användarens valda tema från localStorage
 let savedTheme = localStorage.getItem("theme");
-
 // Om användaren har valt ett tema, använd det
 if (savedTheme) {
     document.body.classList.add(savedTheme === "dark" ? "dark-mode" : "light-mode");
@@ -29,23 +46,6 @@ if (savedTheme) {
     }
 }
 
-// Funktion för att visa/dölja menyn
-const menuVisibility = function () {
-    navigationMenu.classList.toggle("hidden");
-};
-
-// Funktion för att byta tema (dark mode)
-const toggleTheme = function () {
-    document.body.classList.toggle("dark-mode");
-
-    if (document.body.classList.contains("dark-mode")) {
-        themeToggleButton.classList.replace("fa-sun", "fa-moon");
-        localStorage.setItem("theme", "dark");
-    } else {
-        themeToggleButton.classList.replace("fa-moon", "fa-sun");
-        localStorage.setItem("theme", "light");
-    }
-};
 
 // Musikspelare
 let audio = new Audio("music/deep-future-garage-royalty-free-music-163081.mp3");
