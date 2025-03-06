@@ -124,15 +124,6 @@ img {
    
 }
 
-/* PROJEKTTITEL */
-.project-title {
-    color: white; 
-    margin-top: 50px;
-    padding-bottom: 12px; 
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 12px; 
-}
-
 /* CV-SEKTION */
 .Cv {
     font-family: 'Cormorant Garamond', serif !important;
@@ -151,7 +142,14 @@ img {
     font-size: 19px;
 }
 
-
+/* PROJEKTTITEL */
+.project-title {
+    color: white; 
+    margin-top: 50px;
+    padding-bottom: 12px; 
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 12px; 
+}
 
 /* KONTAINER 2 */
 .container2 {
@@ -171,7 +169,6 @@ img {
     justify-content: center; 
     align-items: center; 
     height: 100%; 
-    opacity: 0.4;
 }
 
 /* PROJEKTBILDER */
@@ -192,55 +189,7 @@ img {
 /* HOVER-EFFEKT FÖR PROJEKT */
 .project:hover {
     scale: 1.02;
-    opacity: 1; 
 }
-
-
-
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  
-  /* Modal Content/Box */
-  .modal-content {
-    background-color: white;
-    background-image:url("bilder/oklar.webp");
-    background-size: contain;  /* Anpassa bilden så att den täcker hela rutan */
-    background-position: center;  /* Centrera bilden i rutan */
-    background-repeat: no-repeat;
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 30%; /* Could be more or less, depending on screen size */
-    height: 40%;
-    
-  }
-  
-  /* The Close Button */
-  .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  }
-
 
 
 /* FOOTER */
