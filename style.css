@@ -433,6 +433,10 @@ iframe {
         padding: 13px;
     }
 
+    .dark-mode .navigation-menu {
+        background-color: rgba(75, 78, 83, 0.888);
+    }
+
     .navigation-menu a {
         margin-top: 10px;
     }
