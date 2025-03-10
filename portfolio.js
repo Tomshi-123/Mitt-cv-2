@@ -88,3 +88,6 @@ function closePanel() {
 
 // Anropar funktionen för att hämta och visa GitHub-repos direkt när sidan laddas
 fetchGitHubRepos();
+
+
+//Källorna i denna kod är Chatgpt och StackOverflow mfl..
