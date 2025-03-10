@@ -1,4 +1,4 @@
-// Definierar en asynkron funktion för att hämta GitHub-repos
+// Definierar en funktion för att hämta GitHub-repos
 async function fetchGitHubRepos() {
     try {
         // Skickar en HTTP-förfrågan till GitHubs API för att hämta alla publika repos för användaren "Tomshi-123"
@@ -51,7 +51,7 @@ async function fetchReadme(repoName) {
     try {
         // Skickar en förfrågan till GitHub API för att hämta README-filen för det valda repot
         const response = await fetch(`https://api.github.com/repos/Tomshi-123/${repoName}/readme`, {
-            headers: { Accept: "application/vnd.github.v3.raw" } // Begär råtext istället för Base64-kodat innehåll
+            headers: { Accept: "application/vnd.github.v3.raw" } 
         });
 
         // Om responsen inte är OK (t.ex. README finns inte), kasta ett fel
